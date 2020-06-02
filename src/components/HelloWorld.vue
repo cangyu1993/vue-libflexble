@@ -56,6 +56,7 @@
 </script>
 <style>
   .mu-demo-form {
-    width: 100%
+    width: 100%;
+    max-width: 750px;
   }
 </style>
