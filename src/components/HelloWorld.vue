@@ -19,17 +19,17 @@
 </template>
 <script>
   export default {
-    data () {
+    data() {
       return {
         usernameRules: [
-          { validate: (val) => !!val, message: '必须填写用户名'},
-          { validate: (val) => val.length >= 3, message: '用户名长度大于3'}
+          {validate: (val) => !!val, message: '必须填写用户名'},
+          {validate: (val) => val.length >= 3, message: '用户名长度大于3'}
         ],
         passwordRules: [
-          { validate: (val) => !!val, message: '必须填写密码'},
-          { validate: (val) => val.length >= 3 && val.length <= 10, message: '密码长度大于3小于10'}
+          {validate: (val) => !!val, message: '必须填写密码'},
+          {validate: (val) => val.length >= 3 && val.length <= 10, message: '密码长度大于3小于10'}
         ],
-        argeeRules: [{ validate: (val) => !!val, message: '必须同意用户协议'}],
+        argeeRules: [{validate: (val) => !!val, message: '必须同意用户协议'}],
         validateForm: {
           username: '',
           password: '',
@@ -38,12 +38,12 @@
       }
     },
     methods: {
-      submit () {
+      submit() {
         this.$refs.form.validate().then((result) => {
           console.log('form valid: ', result)
         });
       },
-      clear () {
+      clear() {
         this.$refs.form.clear();
         this.validateForm = {
           username: '',
@@ -56,7 +56,6 @@
 </script>
 <style>
   .mu-demo-form {
-    width: 100%;
-    max-width: 460px;
+    width: 100%
   }
 </style>

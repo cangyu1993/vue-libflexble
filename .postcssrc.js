@@ -4,7 +4,7 @@ module.exports = {
     "postcss-import": {},
     "autoprefixer": {},
     "postcss-px2rem-exclude": {  // 添加的代码
-      remUnit: 75,
+      remUnit: 100,
       exclude: /node_modules/ // 忽略node_modules目录下的文件
     }
   }

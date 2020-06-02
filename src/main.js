@@ -11,8 +11,6 @@ import 'muse-ui/dist/muse-ui.css';
 import 'typeface-roboto'
 Vue.config.productionTip = false
 
-import 'lib-flexible'
-
 Vue.use(MuseUI);
 Vue.prototype.$axios = axios;
 Vue.prototype.$ = jquery;

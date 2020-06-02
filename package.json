@@ -14,7 +14,6 @@
     "crc32": "^0.2.2",
     "deflate-js": "^0.2.3",
     "jquery": "^3.4.1",
-    "lib-flexible": "^0.3.2",
     "muse-ui": "^3.0.2",
     "postcss-px2rem-exclude": "0.0.6",
     "px2rem-loader": "^0.1.9",
