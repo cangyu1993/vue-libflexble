@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
+  　
   <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>vue-m-libflexble</title>
 </head>
+
 <body>
-<div id="app"></div>
-<!-- built files will be auto injected -->
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
 </body>
 <script>
-  //窗口变化再次执行转换操作
-  window.onresize = function () {
-    resizeWindow()
-  }
+  // //窗口变化再次执行转换操作
+  // window.onresize = function () {
+  //   resizeWindow()
+  // }
 
-  function resizeWindow() {
-    let deviceWidth = document.documentElement.clientWidth;
-    let rootRem = deviceWidth / 7.5 + 'px'
-    document.documentElement.style.fontSize = rootRem
-    // console.log(deviceWidth)
-    // console.log(rootRem)
-  }
+  // function resizeWindow() {
+  //   let deviceWidth = document.documentElement.clientWidth;
+  //   let rootRem = deviceWidth / 7.5 + 'px'
+  //   document.documentElement.style.fontSize = rootRem
+  //   // console.log(deviceWidth)
+  //   // console.log(rootRem)
+  // }
 
-  resizeWindow()
+  // resizeWindow()
 </script>
+
 </html>

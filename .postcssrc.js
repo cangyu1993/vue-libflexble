@@ -1,11 +1,8 @@
 module.exports = {
-  "plugins": {
-    // to edit target browsers: use "browserslist" field in package.json
-    "postcss-import": {},
-    "autoprefixer": {},
-    "postcss-px2rem-exclude": {  // 添加的代码
-      remUnit: 100,
-      exclude: /node_modules/ // 忽略node_modules目录下的文件
+  'plugins': {
+    'postcss-px2rem-exclude': {
+      remUnit: 75,
+      exclude: /node_modules|folder_name/i
     }
   }
 }
