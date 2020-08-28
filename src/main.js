@@ -6,8 +6,7 @@ import router from './router'
 import axios from '@/axios'
 import store from '@/store';
 
-import 'lib-flexible'
-
+import 'amfe-flexible'
 
 
 import Vant from 'vant';
@@ -22,9 +21,9 @@ Vue.prototype.$axios = axios;
 Vue.prototype.$ = jquery;
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  store,
-  components: { App },
-  template: '<App/>'
+    el: '#app',
+    router,
+    store,
+    components: {App},
+    template: '<App/>'
 })
